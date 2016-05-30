@@ -37,6 +37,7 @@ Makefile.in
 /stamp-h1
 /aclocal.m4
 /autom4te.cache
+/spl-*
 
 #
 # Top level generic files
