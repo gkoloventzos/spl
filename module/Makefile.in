@@ -1,7 +1,7 @@
 subdir-m += spl
 subdir-m += splat
 
-INSTALL_MOD_DIR ?= extra
+INSTALL_MOD_DIR ?= kernel
 
 SPL_MODULE_CFLAGS  = -I@abs_top_srcdir@/include
 SPL_MODULE_CFLAGS += -include @abs_top_builddir@/spl_config.h
