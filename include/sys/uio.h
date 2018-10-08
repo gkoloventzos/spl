@@ -58,6 +58,8 @@ typedef struct uio {
 	offset_t	uio_limit;
 	ssize_t		uio_resid;
 	size_t		uio_skip;
+    bool        uio_rewrite;
+    int8_t      uio_rot;
 } uio_t;
 
 typedef struct aio_req {
